@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="px-5 lg:px-16 py-4 flex justify-between items-center shadow-lg bg-zinc-950 z-50">
+    <div className="px-5 lg:px-36 py-4 flex justify-between items-center shadow-lg border-b border-gray-500 bg-zinc-950 z-50">
       {/* <img
         className="max-w-32 text-white"
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png"
