@@ -37,7 +37,7 @@ const HeroSection = () => {
             Hire Me!
           </button>
           <div className="flex text-xl py-4 gap-x-2">
-            <button className="bg-slate-400 text-black p-2 rounded-3xl shadow-md shadow-neutral-500/50 duration-500 hover:bg-blue-800 hover:text-white">
+            <button className="bg-slate-400 text-black p-2 rounded-3xl shadow-md shadow-neutral-500/50 duration-500 hover:bg-sky-800 hover:text-white">
               <FaLinkedinIn />
             </button>
             <button className="bg-slate-400 text-black p-2 rounded-3xl shadow-md shadow-neutral-500/50 duration-500 hover:bg-blue-800 hover:text-white">

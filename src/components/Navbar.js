@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="px-5 lg:px-36 py-4 flex justify-between items-center shadow-lg border-b border-gray-500 bg-zinc-950 z-50">
+    <div className="px-5 lg:px-36 py-4 flex justify-between items-center shadow-lg shadow-neutral-500/50 border-b border-gray-500 bg-zinc-950 z-50">
       {/* <img
         className="max-w-32 text-white"
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png"
@@ -44,25 +44,28 @@ const Navbar = () => {
 
       {/* this div is for collapsing the humberger menu (remove hidden class to check) */}
       {isMenuOpen ? (
-        <div className="fixed inset-0 px-5 py-2 bg-slate-200">
+        <div className="fixed inset-0 px-5 py-4 z-10 bg-zinc-800">
           <div className="flex justify-between items-center">
-            <img
+            {/* <img
               className="max-w-32"
               src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png"
               alt=""
-            />
+            /> */}
+            <h1 className="text-gray-400 hover:text-white duration-500 text-xl font-medium">
+              Rushikesh Wani
+            </h1>
             <button
-              className="block md:hidden p-1 rounded-2xl hover:bg-slate-300"
+              className="block md:hidden p-1 rounded-2xl duration-300 hover:bg-slate-300"
               onClick={onClickHandler}
             >
               <FaXmark className="text-2xl" />
             </button>
           </div>
           <div id="items" className="text-center py-7 text-lg text-gray-600">
-            <p className="py-1 hover:text-black">Home</p>
-            <p className="py-1 hover:text-black">About Me</p>
-            <p className="py-1 hover:text-black">Projects</p>
-            <p className="py-1 hover:text-black">Contact Me</p>
+            <p className="py-1 hover:text-white">Home</p>
+            <p className="py-1 hover:text-white">About Me</p>
+            <p className="py-1 hover:text-white">Projects</p>
+            <p className="py-1 hover:text-white">Contact Me</p>
             <button className="border px-3 py-1 rounded-lg border-gray-700 md:block duration-300 hover:bg-green-600 hover:text-white hover:border-green-300">
               Download CV
             </button>
