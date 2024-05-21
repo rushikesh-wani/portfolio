@@ -25,9 +25,10 @@ const Project = () => {
               MERN CRUD Application
             </p>
             <p className="text-gray-300 text-sm">
-              lorem shdh fsdh ipsum text sbgdgs jsywedd sdgs gdgsshs sgagdsg
-              agsa ueyweb yy dh dab afgtv atg sds d ashd hsd ahj ddnd nnsa sasa
-              sn ans bhds gdd{" "}
+              Developed a full-stack CRUD application using the MERN stack for
+              efficient data management and user interaction. Features include a
+              user-friendly interface, robust backend, scalable database,
+              responsive design, and deployment on Render.{" "}
             </p>
             <div className="w-full py-2 mx-auto flex flex-wrap justify-around">
               <button className="text-lg px-4 py-1 border text-gray-300 border-gray-300 rounded-xl duration-500 hover:bg-gray-300 hover:text-black">
@@ -53,13 +54,12 @@ const Project = () => {
                 React JS
               </p>
             </div>
-            <p className="text-xl font-medium uppercase">
-              Food-Villa Food Ordering App
-            </p>
+            <p className="text-xl font-medium uppercase">Food-Villa Food App</p>
             <p className="text-gray-300 text-sm">
-              lorem shdh fsdh ipsum text sbgdgs jsywedd sdgs gdgsshs sgagdsg
-              agsa ueyweb yy dh dab afgtv atg sds d ashd hsd ahj ddnd nnsa sasa
-              sn ans bhds gdd{" "}
+              Utilized Swiggy’s API for real-time restaurant data and menus.
+              Implemented Redux for efficient cart management, developed a
+              Shimmer UI for seamless transitions, integrated react-router-dom
+              for navigation, and enabled easy cart modifications.
             </p>
             <div className="w-full py-2 mx-auto flex flex-wrap justify-around">
               <button className="text-lg px-4 py-1 border text-gray-300 border-gray-300 rounded-xl duration-500 hover:bg-gray-300 hover:text-black">
@@ -87,9 +87,10 @@ const Project = () => {
             </div>
             <p className="text-xl font-medium uppercase">YouTube Clone</p>
             <p className="text-gray-300 text-sm">
-              lorem shdh fsdh ipsum text sbgdgs jsywedd sdgs gdgsshs sgagdsg
-              agsa ueyweb yy dh dab afgtv atg sds d ashd hsd ahj ddnd nnsa sasa
-              sn ans bhds gdd{" "}
+              Integrated the YouTube Public Video API to fetch the top 50
+              videos. Implemented a Watch Page with real-time metrics, a
+              debounced Search Bar, caching for optimized searching, and a Live
+              Chat component with API polling for realtime user interaction.
             </p>
             <div className="w-full py-2 mx-auto flex flex-wrap justify-around">
               <button className="text-lg px-4 py-1 border text-gray-300 border-gray-300 rounded-xl duration-500 hover:bg-gray-300 hover:text-black">
@@ -122,9 +123,10 @@ const Project = () => {
               My Portfolio Website
             </p>
             <p className="text-gray-300 text-sm">
-              lorem shdh fsdh ipsum text sbgdgs jsywedd sdgs gdgsshs sgagdsg
-              agsa ueyweb yy dh dab afgtv atg sds d ashd hsd ahj ddnd nnsa sasa
-              sn ans bhds gdd{" "}
+              Built a personal portfolio website using React and Tailwind CSS.
+              Features include a clean and modern design, responsive layout,
+              smooth navigation, and optimized performance for showcasing
+              projects and skills effectively.
             </p>
             <div className="w-full py-2 mx-auto flex flex-wrap justify-around">
               <button className="text-lg px-4 py-1 border text-gray-300 border-gray-300 rounded-xl duration-500 hover:bg-gray-300 hover:text-black">
