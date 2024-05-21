@@ -25,7 +25,7 @@ const HeroSection = () => {
               }}
             />
           </p>
-          <p className="text-base text-gray-300 my-2">
+          <p className="text-sm text-justify text-gray-300 my-2">
             Welcome to my portfolio! I'm a dedicated frontend developer with a
             passion for React. Currently in my second year of engineering
             studies, I'm constantly learning and growing in my craft. With a

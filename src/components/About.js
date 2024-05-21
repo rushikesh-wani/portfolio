@@ -3,24 +3,52 @@ import img from "../assets/rushi.jpg";
 const About = () => {
   return (
     <>
-      <div className="bg-zinc-950 px-5 lg:px-36 lg:py-0 lg:pt-4 text-white">
+      <div className="bg-zinc-800 px-5 py-4 lg:px-36 lg:py-2 text-white">
         <h1 className="text-3xl text-gray-300 font-medium py-2 sm:py-4 text-center">
           About Me
-          <hr className=""></hr>
         </h1>
-        <div className="block sm:flex">
+        <div className="block md:flex">
           {" "}
-          <div className="bg-gray-500 p-2 w-3/4 mx-auto sm:mx-0">
-            <img className="" src={img} alt="" />
+          <div className="px-0 w-56 h-56 md:w-[700px] md:px-6 mx-auto">
+            <img
+              className="bg-cover shadow-md shadow-slate-400/30 rounded-full"
+              src={img}
+              alt=""
+            />
           </div>
-          <div>
+          <div className="text-justify text-gray-300">
             <p>
-              Welcome to my portfolio! I'm a dedicated frontend developer with a
-              passion for React. Currently in my second year of engineering
-              studies, I'm constantly learning and growing in my craft. With a
-              keen eye for detail and a knack for innovation, I specialize in
-              creating dynamic and engaging user experiences. Explore my work
-              and let's connect to bring your projects to life!
+              <span className="text-2xl font-medium">W</span>elcome to my
+              portfolio! As a highly motivated and ambitious multidisciplinary
+              engineering student, I am eager to expand my knowledge and
+              leverage my skills in the field of web development. My strong
+              desire and passion for gaining a better understanding of React.js
+              drive my confidence in excelling in my work.
+            </p>
+            <p>
+              A key strength of mine lies in swiftly adapting to newer
+              technologies, ensuring I stay at the forefront of the rapidly
+              evolving field of full stack web development. Every day, I eagerly
+              pursue opportunities to learn, whether through projects or by
+              exploring new concepts. Firmly believing in the power of
+              collaboration and teamwork, I actively seek opportunities to
+              engage with others and contribute to impactful initiatives.
+            </p>
+            <p>
+              Currently, I am seeking internship opportunities where I can
+              contribute to a team and help drive organizational success. With a
+              strong proficiency in React.js, I have developed projects such as
+              Food Villa and a YouTube clone, showcasing my skills and
+              dedication. I am enthusiastic about applying my knowledge and
+              expertise to real-world challenges, eager to make meaningful
+              contributions to your team. Please feel free to explore the
+              project section of my profile for a closer look at my work.
+            </p>
+            <p>
+              Thank you for visiting my profile! I am keen to connect with
+              fellow professionals, so please don't hesitate to reach out. Let's
+              connect and explore potential opportunities to collaborate and
+              learn together.
             </p>
           </div>
         </div>
