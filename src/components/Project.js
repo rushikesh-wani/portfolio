@@ -1,5 +1,8 @@
 import React from "react";
-
+import img1 from "../assets/project/Project01.png";
+import img2 from "../assets/project/Project02.png";
+import img3 from "../assets/project/Project03.png";
+import img4 from "../assets/project/Project04.png";
 const Project = () => {
   return (
     <div className="bg-zinc-950 px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
@@ -11,7 +14,7 @@ const Project = () => {
           <div className="Card-img h-44">
             <img
               className="w-full h-full object-cover rounded-tr-lg rounded-tl-lg"
-              src="https://stastic.ui4free.com/public/images/project-thumbnail-figma-design_1646617617.jpg"
+              src={img1}
               alt="Project thumbnail"
             />
           </div>
@@ -44,7 +47,7 @@ const Project = () => {
           <div className="Card-img h-44">
             <img
               className="w-full h-full object-cover rounded-tr-lg rounded-tl-lg"
-              src="https://s3-alpha.figma.com/hub/file/1472262063/f728c543-95e1-466b-8699-acabb5e96c93-cover.png"
+              src={img2}
               alt="Project thumbnail"
             />
           </div>
@@ -75,7 +78,7 @@ const Project = () => {
           <div className="Card-img h-44">
             <img
               className="w-full h-full object-cover rounded-tr-lg rounded-tl-lg"
-              src="https://s3-alpha.figma.com/hub/file/3911311858/297285c6-e724-45d7-95ec-e364206fdd9d-cover.png"
+              src={img3}
               alt="Project thumbnail"
             />
           </div>
@@ -106,7 +109,7 @@ const Project = () => {
           <div className="Card-img h-44">
             <img
               className="w-full h-full object-cover rounded-tr-lg rounded-tl-lg"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KalHLLRTwO-LM1f7AhkLED9AUN3T4Tp1rnIiAPvYN-UVKl-CH6gfezY2MS2-3dK2BSw&usqp=CAU"
+              src={img4}
               alt="Project thumbnail"
             />
           </div>
