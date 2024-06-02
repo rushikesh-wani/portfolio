@@ -2,12 +2,14 @@ import React from "react";
 import postman from "../assets/postman.svg";
 const Skills = () => {
   return (
-    <div className="bg-zinc-950 px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
+    <div className="bg-primary-dark px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
       <h1 className="text-3xl text-gray-300 font-medium py-2 sm:py-4 text-center">
         Skills
+        <hr class="my-3 sm:mx-auto border-gray-400 lg:my-2" />
       </h1>
+
       <div className="cards-container text-center mx-auto flex flex-wrap gap-x-2 gap-y-2 sm:gap-x-3 sm:gap-y-5 justify-center">
-        <div className="w-80 h-36 sm:h-40 bg-slate-900 text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <span className="">Programming Languages</span>
           <div className="flex justify-between gap-x-10 p-3">
             <div className=" ">
@@ -177,7 +179,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 h-36 sm:h-40 bg-slate-900 text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <span className="">Web Technologies</span>
           <div className="flex justify-between gap-x-10 p-3">
             <div className="">
@@ -252,7 +254,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 h-36 sm:h-40 bg-slate-900 text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <span className="">Libraries and Frameworks</span>
           <div className="flex justify-between gap-x-10 p-3">
             <div className="">
@@ -325,7 +327,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 h-36 sm:h-40 bg-slate-900 text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <span className="">Tools and Software</span>
           <div className="flex justify-between gap-x-10 p-3">
             <div className="">
@@ -380,7 +382,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="w-80 h-36 sm:h-40 bg-slate-900 text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <span className="">Databases</span>
           <div className="flex justify-evenly gap-x-10 p-3">
             <div className="">

@@ -3,12 +3,13 @@ import img from "../assets/rushi.jpg";
 const About = () => {
   return (
     <>
-      <div className="bg-zinc-800 px-5 py-4 lg:px-36 lg:py-2 text-white">
-        <h1 className="text-3xl text-gray-300 font-medium py-2 sm:py-4 text-center">
+      <div className="bg-secondary-dark px-5 py-4 lg:px-36 lg:py-10 text-white">
+        <h1 className="text-3xl text-gray-100 font-medium text-center">
           About Me
+          <hr class="my-3 sm:mx-auto border-gray-400 lg:my-2" />
         </h1>
+
         <div className="block md:flex">
-          {" "}
           <div className="px-0 w-56 h-56 md:w-[700px] md:px-6 mx-auto">
             <img
               className="bg-cover shadow-md shadow-slate-400/30 rounded-full"
@@ -16,14 +17,14 @@ const About = () => {
               alt=""
             />
           </div>
-          <div className="text-justify text-gray-300">
+          <div className="text-justify text-white">
             <p>
-              <span className="text-2xl font-medium">W</span>elcome to my
-              portfolio! As a highly motivated and ambitious multidisciplinary
-              engineering student, I am eager to expand my knowledge and
-              leverage my skills in the field of web development. My strong
-              desire and passion for gaining a better understanding of React.js
-              drive my confidence in excelling in my work.
+              <span className="text-2xl">W</span>elcome to my portfolio! As a
+              highly motivated and ambitious multidisciplinary engineering
+              student, I am eager to expand my knowledge and leverage my skills
+              in the field of web development. My strong desire and passion for
+              gaining a better understanding of React.js drive my confidence in
+              excelling in my work.
             </p>
             <p>
               A key strength of mine lies in swiftly adapting to newer
