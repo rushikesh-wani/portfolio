@@ -13,6 +13,9 @@ module.exports = {
         "ternary-dark": "#1C263C",
         priText: "#4E4232",
       },
+      fontFamily: {
+        sans: ["Inter"],
+      },
     },
   },
   plugins: [],

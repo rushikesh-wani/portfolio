@@ -3,20 +3,20 @@ import img from "../assets/dev.svg";
 import Typewriter from "typewriter-effect";
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-const HeroSection = () => {
+const HeroSectionDuplicate = () => {
   return (
     <>
-      <div className="bg-slate-950 px-5 pt-5 lg:px-36 lg:py-0 lg:pt-10 text-white">
-        <div className="flex flex-col sm:flex-row flex-wrap justify-center md:flex-nowrap md:items-center md:justify-between">
-          <div className="text-2xl w-full md:w-1/2 font-medium text-gray-50">
-            <p className="text-2xl lg:text-4xl font-thin">Hello,</p>
-            <p className="text-3xl lg:text-6xl font-normal">
+      <div className="bg-slate-950 px-5 h-screen flex align-middle lg:px-36">
+        <div className="text-center content-center">
+          <div className="font-medium text-white text-center">
+            <p className="text-2xl sm:text-4xl md:text-5xl font-thin">Hello,</p>
+            <p className="text-3xl sm:text-6xl md:text-7xl font-normal">
               I'm{" "}
               <span className="animate-text-gradient inline-flex bg-gradient-to-r from-emerald-300 via-yellow-200 to-fuchsia-400 bg-clip-text leading-tight text-transparent ">
                 Rushikesh Wani
               </span>
             </p>
-            <p className="lg:text-3xl font-thin">
+            <p className="sm:text-2xl md:text-3xl font-thin">
               <Typewriter
                 options={{
                   strings: [
@@ -29,7 +29,7 @@ const HeroSection = () => {
                 }}
               />
             </p>
-            <p className="text-base font-normal text-justify my-2 leading-snug text-gray-200">
+            <p className="text-xs md:text-base font-normal mx-0 lg:mx-28 my-2 leading-snug text-gray-200">
               I'm a dedicated frontend developer with a passion for React.
               Currently in my second year of engineering studies, I'm constantly
               learning and growing in my craft. With a keen eye for detail and a
@@ -37,24 +37,19 @@ const HeroSection = () => {
               engaging user experiences. Explore my work and let's connect to
               bring your projects to life!
             </p>
-            <button className="text-base border px-3 py-1  rounded-lg text-gray-400 font-medium border-gray-400 md:block hover:bg-gray-300 hover:text-black duration-500">
-              Hire Me!
-            </button>
-            {/* <div className="flex text-xl py-4 gap-x-2">
-            <button className="text-gray-400 p-2 rounded-3xl duration-500 hover:bg-sky-800 hover:text-white">
-              <FaLinkedinIn />
-            </button>
-            <button className="text-gray-300 p-2 rounded-3xl duration-500 hover:bg-blue-800 hover:text-white">
-              <FaFacebookF />
-            </button>
-            <button className="text-gray-400 duration-500  p-2 rounded-3xl hover:bg-gradient-to-br from-fuchsia-600 to-amber-500 hover:text-white">
-              <FaInstagram />
-            </button>
-          </div> */}
-            <div class="flex mt-5">
+            <div className="flex justify-center gap-x-4 my-14">
+              <button className="text-base border px-3 py-1  rounded-lg text-gray-400 font-medium border-gray-400 md:block hover:bg-gray-300 hover:text-black duration-500">
+                Get Connected
+              </button>
+              <button className="text-base border px-3 py-1  rounded-lg text-gray-400 font-medium border-gray-400 md:block hover:bg-gray-300 hover:text-black duration-500">
+                Hire Me
+              </button>
+            </div>
+
+            <div class="flex justify-center">
               <a href="#" class="text-gray-500 hover:text-white">
                 <svg
-                  class="w-4 h-4"
+                  class="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -70,7 +65,7 @@ const HeroSection = () => {
               </a>
               <a href="#" class="text-gray-500 hover:text-white ms-5">
                 <svg
-                  class="w-4 h-4"
+                  class="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -82,7 +77,7 @@ const HeroSection = () => {
               </a>
               <a href="#" class="text-gray-500 hover:text-white ms-5">
                 <svg
-                  class="w-4 h-4"
+                  class="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -98,7 +93,7 @@ const HeroSection = () => {
               </a>
               <a href="#" class="text-gray-500 hover:text-white ms-5">
                 <svg
-                  class="w-4 h-4"
+                  class="w-6 h-6"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -114,12 +109,10 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          {/* <img className="my-5 h-96 md:my-0 sm:h-96 md:h-80" src={img} alt="" /> */}
-          <img className="h-96 md:my-0 sm:h-96" src={img} alt="hero-img" />
         </div>
       </div>
     </>
   );
 };
 
-export default HeroSection;
+export default HeroSectionDuplicate;
