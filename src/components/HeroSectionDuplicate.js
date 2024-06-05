@@ -6,17 +6,17 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const HeroSectionDuplicate = () => {
   return (
     <>
-      <div className="bg-slate-950 px-5 h-screen flex align-middle lg:px-36">
+      <div className="bg-[#2b2b2b] bg-[radial-gradient(#ffffff33_1px,#101426_1px)] bg-[size:20px_20px] px-5 h-screen flex align-middle lg:px-36">
         <div className="text-center content-center">
           <div className="font-medium text-white text-center">
-            <p className="text-2xl sm:text-4xl md:text-5xl font-thin">Hello,</p>
-            <p className="text-3xl sm:text-6xl md:text-7xl font-normal">
+            <p className="text-3xl sm:text-4xl md:text-5xl font-thin">Hello,</p>
+            <p className="text-4xl sm:text-6xl md:text-7xl font-normal">
               I'm{" "}
-              <span className="animate-text-gradient inline-flex bg-gradient-to-r from-emerald-300 via-yellow-200 to-fuchsia-400 bg-clip-text leading-tight text-transparent ">
+              <span className="animate-text-gradient inline-flex bg-gradient-to-r from-blue-600 to-red-400 bg-clip-text leading-tight text-transparent ">
                 Rushikesh Wani
               </span>
             </p>
-            <p className="sm:text-2xl md:text-3xl font-thin">
+            <p className="text-2xl sm:text-2xl md:text-3xl font-thin">
               <Typewriter
                 options={{
                   strings: [
@@ -38,16 +38,16 @@ const HeroSectionDuplicate = () => {
               bring your projects to life!
             </p>
             <div className="flex justify-center gap-x-4 my-14">
-              <button className="text-base border px-3 py-1  rounded-lg text-gray-400 font-medium border-gray-400 md:block hover:bg-gray-300 hover:text-black duration-500">
+              <button className="text-base border px-3 py-1  rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500">
                 Get Connected
               </button>
-              <button className="text-base border px-3 py-1  rounded-lg text-gray-400 font-medium border-gray-400 md:block hover:bg-gray-300 hover:text-black duration-500">
+              <button className="text-base border px-3 py-1  rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500">
                 Hire Me
               </button>
             </div>
 
             <div class="flex justify-center">
-              <a href="#" class="text-gray-500 hover:text-white">
+              <a href="#" class="text-gray-400 hover:text-white">
                 <svg
                   class="w-6 h-6"
                   aria-hidden="true"
@@ -63,7 +63,7 @@ const HeroSectionDuplicate = () => {
                 </svg>
                 <span class="sr-only">Facebook page</span>
               </a>
-              <a href="#" class="text-gray-500 hover:text-white ms-5">
+              <a href="#" class="text-gray-400 hover:text-white ms-5">
                 <svg
                   class="w-6 h-6"
                   aria-hidden="true"
@@ -75,7 +75,7 @@ const HeroSectionDuplicate = () => {
                 </svg>
                 <span class="sr-only">Discord community</span>
               </a>
-              <a href="#" class="text-gray-500 hover:text-white ms-5">
+              <a href="#" class="text-gray-400 hover:text-white ms-5">
                 <svg
                   class="w-6 h-6"
                   aria-hidden="true"
@@ -91,7 +91,7 @@ const HeroSectionDuplicate = () => {
                 </svg>
                 <span class="sr-only">Twitter page</span>
               </a>
-              <a href="#" class="text-gray-500 hover:text-white ms-5">
+              <a href="#" class="text-gray-400 hover:text-white ms-5">
                 <svg
                   class="w-6 h-6"
                   aria-hidden="true"
