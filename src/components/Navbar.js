@@ -56,8 +56,8 @@ const Navbar = () => {
 
       {/* this div is for collapsing the humberger menu (remove hidden class to check) */}
       {isMenuOpen ? (
-        <div className="fixed inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-secondary-dark">
-          <div className="flex justify-between items-center">
+        <div className="fixed inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-gradient-to-r from-secondary-dark via-slate-700 to-slate-600 ">
+          <div className="flex justify-between items-center ">
             {/* <img
               className="max-w-32"
               src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png"
@@ -92,7 +92,7 @@ const Navbar = () => {
           </div>
         </div>
       ) : (
-        <div className="sm:hidden fixed inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-secondary-dark shadow-md shadow-slate-400/20">
+        <div className="hidden inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-secondary-dark shadow-md shadow-slate-400/20">
           <div className="flex justify-between items-center">
             <h1 className="text-white duration-500 text-xl font-medium">
               Rushikesh Wani

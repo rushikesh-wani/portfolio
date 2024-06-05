@@ -3,8 +3,8 @@ import img from "../assets/rushi.jpg";
 const About = () => {
   return (
     <>
-      <div className="bg-secondary-dark px-5 py-4 lg:px-36 lg:py-10 text-white">
-        <h1 className="text-3xl text-gray-100 font-medium text-center">
+      <div className="px-5 py-4 lg:px-36 lg:py-10 text-white">
+        <h1 className="text-4xl sm:text-5xl text-white font-medium text-center">
           About Me
           <hr class="my-3 sm:mx-auto border-gray-400 lg:my-2" />
         </h1>
@@ -17,7 +17,7 @@ const About = () => {
               alt=""
             />
           </div>
-          <div className="text-justify text-white">
+          <div className="text-justify text-white bg-gradient-to-r from-secondary-dark via-slate-800 to-slate-600 my-4 md:my-0 p-2 sm:p-4 rounded-xl">
             <p>
               <span className="text-2xl">W</span>elcome to my portfolio! As a
               highly motivated and ambitious multidisciplinary engineering

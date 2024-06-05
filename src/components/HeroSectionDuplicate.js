@@ -6,13 +6,13 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const HeroSectionDuplicate = () => {
   return (
     <>
-      <div className="bg-[#2b2b2b] bg-[radial-gradient(#ffffff33_1px,#101426_1px)] bg-[size:20px_20px] px-5 h-screen flex align-middle lg:px-36">
+      <div className="px-5 h-screen flex align-middle lg:px-36">
         <div className="text-center content-center">
           <div className="font-medium text-white text-center">
             <p className="text-3xl sm:text-4xl md:text-5xl font-thin">Hello,</p>
-            <p className="text-4xl sm:text-6xl md:text-7xl font-normal">
+            <p className="text-3xl sm:text-6xl md:text-7xl font-normal">
               I'm{" "}
-              <span className="animate-text-gradient inline-flex bg-gradient-to-r from-blue-600 to-red-400 bg-clip-text leading-tight text-transparent ">
+              <span className="animate-text-gradient inline-flex bg-gradient-to-r from-blue-500 to-red-400 bg-clip-text leading-tight text-transparent font-medium">
                 Rushikesh Wani
               </span>
             </p>
@@ -29,7 +29,8 @@ const HeroSectionDuplicate = () => {
                 }}
               />
             </p>
-            <p className="text-xs md:text-base font-normal mx-0 lg:mx-28 my-2 leading-snug text-gray-200">
+
+            <p className="text-xs md:text-base font-normal mx-0 lg:mx-28 my-2 leading-snug text-gray-200 bg-secondary-dark bg-opacity-35 p-2 sm:p-4 rounded-xl">
               I'm a dedicated frontend developer with a passion for React.
               Currently in my second year of engineering studies, I'm constantly
               learning and growing in my craft. With a keen eye for detail and a

@@ -6,13 +6,13 @@ import img4 from "../assets/project/Project04.png";
 
 const Project = () => {
   return (
-    <div className="bg-secondary-dark px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
-      <h1 className="text-3xl text-gray-300 font-medium py-2 sm:py-4 text-center">
+    <div className="px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
+      <h1 className="text-4xl sm:text-5xl text-white font-medium py-2 sm:py-4 text-center">
         Projects
         <hr class="my-3 sm:mx-auto border-gray-400 lg:my-2" />
       </h1>
       <div className="cards-container mx-auto flex flex-wrap gap-x-2 gap-y-6 sm:gap-x-5 sm:gap-y-5 justify-center align-middle items-center">
-        <div className="Card w-auto h-auto p-3 bg-primary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="Card w-auto h-auto p-3 bg-secondary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <div className="Card-img h-48">
             <img
               className="w-full h-full object-cover rounded-lg"
@@ -20,7 +20,7 @@ const Project = () => {
               alt="Project thumbnail"
             />
           </div>
-          <div className="py-3 bg-primary-dark rounded-bl-lg rounded-br-lg">
+          <div className="py-3 bg-secondary-dark rounded-bl-lg rounded-br-lg">
             <div className="pb-1 flex text-xs sm:text-sm text-nowrap flex-wrap gap-x-2 gap-y-1">
               <p className="bg-slate-400 px-3 rounded-xl text-black">
                 MERN Stack
@@ -45,7 +45,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="Card w-auto h-auto p-3 bg-primary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="Card w-auto h-auto p-3 bg-secondary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <div className="Card-img h-48">
             <img
               className="w-full h-full object-cover rounded-lg"
@@ -53,7 +53,7 @@ const Project = () => {
               alt="Project thumbnail"
             />
           </div>
-          <div className="py-3 bg-slate-900 rounded-bl-lg rounded-br-lg">
+          <div className="py-3 rounded-bl-lg rounded-br-lg">
             <div className="pb-1 flex text-xs sm:text-sm text-nowrap flex-wrap gap-x-2 gap-y-1">
               <p className="bg-slate-400 px-3 rounded-xl text-black">
                 React JS
@@ -76,7 +76,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="Card w-auto h-auto p-3 bg-primary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="Card w-auto h-auto p-3 bg-secondary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <div className="Card-img h-48">
             <img
               className="w-full h-full object-cover rounded-lg"
@@ -84,7 +84,7 @@ const Project = () => {
               alt="Project thumbnail"
             />
           </div>
-          <div className="py-3 text-white text-justify bg-slate-900 rounded-bl-lg rounded-br-lg">
+          <div className="py-3 text-white text-justify rounded-bl-lg rounded-br-lg">
             <div className="pb-1 flex text-xs sm:text-sm text-nowrap flex-wrap gap-x-2 gap-y-1">
               <p className="bg-slate-400 px-3 rounded-xl text-black">
                 React JS
@@ -107,7 +107,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="Card w-auto h-auto p-3 bg-primary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
+        <div className="Card w-auto h-auto p-3 bg-secondary-dark sm:w-80 md:w-[350px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30">
           <div className="Card-img h-48">
             <img
               className="w-full h-full object-cover rounded-lg"
@@ -115,7 +115,7 @@ const Project = () => {
               alt="Project thumbnail"
             />
           </div>
-          <div className="py-3  bg-slate-900 rounded-bl-lg rounded-br-lg">
+          <div className="py-3  rounded-bl-lg rounded-br-lg">
             <div className="pb-1 flex text-xs sm:text-sm text-nowrap flex-wrap gap-x-2 gap-y-1">
               <p className="bg-slate-400 px-3 rounded-xl text-black">
                 MERN Stack

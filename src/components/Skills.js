@@ -2,8 +2,8 @@ import React from "react";
 import postman from "../assets/postman.svg";
 const Skills = () => {
   return (
-    <div className="bg-primary-dark px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
-      <h1 className="text-3xl text-gray-300 font-medium py-2 sm:py-4 text-center">
+    <div className="px-5 pb-5 lg:px-36 lg:py-10 lg:pt-4 text-white">
+      <h1 className="text-4xl sm:text-5xl text-white font-medium py-2 sm:py-4 text-center">
         Skills
         <hr class="my-3 sm:mx-auto border-gray-400 lg:my-2" />
       </h1>

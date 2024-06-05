@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <HeroSectionDuplicate />
-      <About />
-      <Skills />
-      <Project />
+      <div className="bg-[#2b2b2b] bg-[radial-gradient(#ffffff33_1px,#101426_1px)] bg-[size:20px_20px] ">
+        <HeroSectionDuplicate />
+        <About />
+        <Skills />
+        <Project />
+      </div>
       <Footer />
     </div>
   );
