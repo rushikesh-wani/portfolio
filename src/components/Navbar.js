@@ -9,12 +9,13 @@ const Navbar = () => {
   }
 
   return (
-    <div className="px-5 lg:px-36 py-4 flex justify-between items-center shadow-lg shadow-neutral-500/50 border-b border-gray-500 bg-primary-dark z-50">
+    <div className="fixed w-screen px-5 lg:px-36 py-4 flex justify-between items-center shadow-lg bg-opacity-95 border-b border-gray-500 bg-primary-dark z-50">
       {/* <img
         className="max-w-32 text-white"
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png"
         alt=""
       /> */}
+
       <h1 className="text-gray-300 hover:text-white duration-500 text-xl font-medium hover:scale-110">
         Rushikesh Wani
       </h1>
@@ -41,6 +42,12 @@ const Navbar = () => {
           href=""
           className="duration-300 hover:text-amber-600 hover:underline underline-offset-4 hover:scale-110"
         >
+          Skills
+        </a>
+        <a
+          href=""
+          className="duration-300 hover:text-amber-600 hover:underline underline-offset-4 hover:scale-110"
+        >
           Projects
         </a>
         <a
@@ -56,7 +63,7 @@ const Navbar = () => {
 
       {/* this div is for collapsing the humberger menu (remove hidden class to check) */}
       {isMenuOpen ? (
-        <div className="fixed inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-gradient-to-r from-secondary-dark via-slate-700 to-slate-600 ">
+        <div className="fixed inset-2 rounded-xl h-fit px-3 py-2 z-10 bg-opacity-95 bg-gradient-to-r from-secondary-dark via-slate-800 to-slate-700 ">
           <div className="flex justify-between items-center ">
             {/* <img
               className="max-w-32"
@@ -79,6 +86,9 @@ const Navbar = () => {
             </p>
             <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
               About Me
+            </p>
+            <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
+              Skills
             </p>
             <p className="p-4 py-2 rounded-xl duration-300 hover:text-gray-300 hover:bg-zinc-950">
               Projects

@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../assets/dev.svg";
 import Typewriter from "typewriter-effect";
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
