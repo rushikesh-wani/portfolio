@@ -23,17 +23,17 @@ const Project = () => {
   }, [controls, inView]);
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: 100, scale: 0.8 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
+      y: 0,
+      scale: 1,
+      transition: { duration: 1 },
     },
   };
 
   const cardVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0 },
   };
 
@@ -61,7 +61,7 @@ const Project = () => {
         >
           {ProjectList.map((item, index) => (
             <motion.div
-              key={index}
+              key={item.no}
               className="Card w-auto h-auto p-3 bg-gradient-to-t from-secondary-dark to-slate-500 sm:w-80 md:w-[290px] rounded-xl duration-500 hover:shadow-md hover:shadow-slate-400/30"
               variants={cardVariants}
               whileHover={{ scale: 1.02 }}
@@ -69,7 +69,7 @@ const Project = () => {
               <div className="Card-img h-48">
                 <img
                   className="w-full h-full rounded-lg"
-                  src={index % 2 === 0 ? img1 : img2} // Use alternating images for demonstration
+                  src={img1}
                   alt="Project thumbnail"
                 />
               </div>

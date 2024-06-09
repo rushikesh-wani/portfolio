@@ -19,11 +19,12 @@ const About = () => {
   }, [controls, inView]);
 
   const variants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 0, y: 100, scale: 0.8 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 },
+      scale: 1,
+      transition: { duration: 1 },
     },
   };
 
@@ -54,7 +55,7 @@ const About = () => {
               alt=""
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 1 }}
             />
             <p className="text-center mt-2 text-2xl sm:text-base lg:text-xl">
               Rushikesh Wani

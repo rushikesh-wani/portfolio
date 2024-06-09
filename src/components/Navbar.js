@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { FaAngleDown, FaTurnDown, FaXmark } from "react-icons/fa6";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

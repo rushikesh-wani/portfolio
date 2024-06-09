@@ -20,11 +20,12 @@ const HeroSectionDuplicate = () => {
   }, [controls, inView]);
 
   const variants = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 0, y: 100, scale: 0.8 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 },
+      scale: 1,
+      transition: { duration: 1 },
     },
   };
 
@@ -45,9 +46,7 @@ const HeroSectionDuplicate = () => {
           </motion.p>
           <motion.p
             className="text-3xl sm:text-6xl md:text-7xl font-normal"
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.8 }}
+            variants={variants}
           >
             I'm{" "}
             <span className="animate-text-gradient inline-flex bg-gradient-to-r from-blue-600 to-rose-500 bg-clip-text leading-tight text-transparent font-medium">
@@ -82,24 +81,17 @@ const HeroSectionDuplicate = () => {
             user experiences. Explore my work and let's connect to bring your
             projects to life!
           </motion.p>
-          <div className="flex justify-center gap-x-4 my-14">
-            <motion.button
-              className="text-base border px-3 py-1 rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              variants={variants}
-            >
+          <motion.div
+            className="flex justify-center gap-x-4 my-14"
+            variants={variants}
+          >
+            <button className="text-base border px-3 py-1 rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500">
               Get Connected
-            </motion.button>
-            <motion.button
-              className="text-base border px-3 py-1 rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              variants={variants}
-            >
+            </button>
+            <button className="text-base border px-3 py-1 rounded-lg text-white font-medium border-white md:block hover:bg-white hover:text-black duration-500">
               Hire Me
-            </motion.button>
-          </div>
+            </button>
+          </motion.div>
 
           <motion.div className="flex justify-center" variants={variants}>
             <FacebookSVG />

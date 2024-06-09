@@ -34,18 +34,18 @@ const Skills = () => {
   }, [controls, inView]);
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: 100, scale: 0.8 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
+      y: 0,
+      scale: 1,
+      transition: { duration: 1 },
     },
   };
 
   const cardVariants = {
     hidden: { opacity: 0, y: 50, scale: 0.8 },
-    visible: { opacity: 1, y: 0, scale: 1, rotate: [0, 10, -10, 0] },
+    visible: { opacity: 1, y: 0, scale: 1 },
   };
 
   return (
@@ -55,19 +55,21 @@ const Skills = () => {
         animate={controls}
         variants={containerVariants}
       >
-        <h1 className="text-4xl sm:text-5xl text-white font-medium py-2 sm:py-4 text-center">
+        <motion.h1
+          className="text-4xl sm:text-5xl text-white font-medium py-2 sm:py-4 text-center"
+          variants={containerVariants}
+        >
           Skills
           <hr className="my-3 sm:mx-auto border-gray-400 lg:my-2" />
-        </h1>
+        </motion.h1>
 
         <motion.div
           className="cards-container text-center mx-auto flex flex-wrap gap-x-2 gap-y-2 sm:gap-x-3 sm:gap-y-5 justify-center"
           variants={containerVariants}
         >
           <motion.div
-            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30 hover:bg-gradient-to-t from-secondary-dark to-slate-600 transform hover:-translate-y-2"
+            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30"
             variants={cardVariants}
-            whileHover={{ scale: 1.05 }}
           >
             <span className="">Programming Languages</span>
             <div className="flex justify-between gap-x-10 p-3">
@@ -77,9 +79,8 @@ const Skills = () => {
             </div>
           </motion.div>
           <motion.div
-            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30 hover:bg-gradient-to-t from-secondary-dark to-slate-600 transform hover:-translate-y-2"
+            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30"
             variants={cardVariants}
-            whileHover={{ scale: 1.05 }}
           >
             <span className="">Web Technologies</span>
             <div className="flex justify-between gap-x-10 p-3">
@@ -89,9 +90,8 @@ const Skills = () => {
             </div>
           </motion.div>
           <motion.div
-            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30 hover:bg-gradient-to-t from-secondary-dark to-slate-600 transform hover:-translate-y-2"
+            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30"
             variants={cardVariants}
-            whileHover={{ scale: 1.05 }}
           >
             <span className="">Libraries and Frameworks</span>
             <div className="flex justify-between gap-x-10 p-3">
@@ -101,9 +101,8 @@ const Skills = () => {
             </div>
           </motion.div>
           <motion.div
-            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30 hover:bg-gradient-to-t from-secondary-dark to-slate-600 transform hover:-translate-y-2"
+            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30"
             variants={cardVariants}
-            whileHover={{ scale: 1.05 }}
           >
             <span className="">Tools and Software</span>
             <div className="flex justify-between gap-x-10 p-3">
@@ -113,9 +112,8 @@ const Skills = () => {
             </div>
           </motion.div>
           <motion.div
-            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30 hover:bg-gradient-to-t from-secondary-dark to-slate-600 transform hover:-translate-y-2"
+            className="w-80 h-36 sm:h-40 bg-secondary-dark text-white rounded-2xl text-center p-4 duration-500 hover:shadow-md hover:shadow-slate-400/30"
             variants={cardVariants}
-            whileHover={{ scale: 1.05 }}
           >
             <span className="">Databases</span>
             <div className="flex justify-evenly gap-x-10 p-3">
